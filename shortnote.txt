@@ -1,0 +1,18 @@
+# Maintenance RAG Assistant – ShortNote
+
+## Assumptions
+- Documents are readable PDFs or TXT files with maintenance procedures.
+- Users will ask maintenance-related, operational questions.
+- Answers must be strictly based on uploaded documents; no external info.
+
+## Trade-offs Considered
+- Groq Free LLM chosen: free and easy to use, but smaller context window limits long answers.
+- Chunk size: 1000 characters with 200-character overlap balances retrieval speed vs context completeness.
+- FAISS local vector store: simple and fast for small datasets, but not cloud-scalable.
+
+## Improvements for Production
+- Use a cloud-based vector database (Pinecone, Weaviate) for scalability and persistence.
+- Add multi-turn conversational memory for follow-up questions.
+- Integrate OCR to handle scanned PDF documents.
+- Implement confidence scoring for retrieved answers.
+- Add user authentication and logging for enterprise usage.

@@ -98,13 +98,20 @@ The generator set should be lifted by first lowering the forklift forks to minim
 
 Maintenance-RAG-Assistant/
 │
-├── app.py → Streamlit web app
-├── rag_core.py → Core RAG functions
+
+├── app.py             → Streamlit web app
+
+├── rag_core.py        → Core RAG functions
+
 ├── requirements.txt
+
 ├── README.md
-├── data/ 
-│    └── operation-and-maintenance.pdf
-└── shortnote.txt
+
+├── data/              → PDF/TXT knowledge base
+
+│   └── operation-and-maintenance.pdf
+
+└── shortnote.txt      → Design notes / assumptions / trade-offs
 
 
 ---

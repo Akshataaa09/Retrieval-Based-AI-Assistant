@@ -109,7 +109,7 @@ Maintenance-RAG-Assistant/
 
 ├── data/              → PDF/TXT knowledge base
 
-│   └── operation-and-maintenance.pdf
+│     └── operation-and-maintenance.pdf
 
 └── shortnote.txt      → Design notes / assumptions / trade-offs
 

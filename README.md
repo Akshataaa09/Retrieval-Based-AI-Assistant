@@ -85,12 +85,15 @@ Example document:
 
 ---
 
-## 📈 Sample Input & Output
+## 📈 Input & Output
 
-**Question:** How should the generator set be lifted?  
+## Retrived Chunks
+<img width="1919" height="1079" alt="Retrived Chunks" src="https://github.com/user-attachments/assets/38c56ce6-0ccf-4fa4-934c-3a923037911e" />
 
-**AI Response:**  
-The generator set should be lifted by first lowering the forklift forks to minimum/ground level and driving them into the forklift pockets under the baseframe of the generator set slowly and carefully. Then, raise the level of the forklift forks slowly around 15-20 cm to lift the generator set from the ground. Guide ropes or equivalents should be used to prevent rotation or swing action, and the operation should be done with caution, avoiding strong winds and keeping people at a safe distance.  
+## AI Response
+
+<img width="1919" height="1078" alt="AI Response" src="https://github.com/user-attachments/assets/53d524bd-4fb7-4cb4-b23a-d8b9336f67e8" />
+
 
 ---
 

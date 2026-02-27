@@ -1,4 +1,4 @@
-# 🔧 Maintenance RAG Assistant (Groq Free Version)
+# 🔧 Maintenance RAG Assistant
 ### Retrieval-Augmented AI Assistant for Maintenance Queries
 
 An end-to-end RAG project that answers maintenance-related questions using PDF or text documents as a knowledge base.  
@@ -14,21 +14,21 @@ This project covers:
 
 ## Minimal Setup Instructions
 
-Clone the repository: git clone <your-github-repo-link> && cd Maintenance-RAG-Assistant
+-**Clone the repository:** git clone <your-github-repo-link> && cd Maintenance-RAG-Assistant
 
-Create and activate a virtual environment:
+-Create and activate a virtual environment:
 
-Windows: python -m venv venv && venv\Scripts\activate
+-**Windows:** python -m venv venv && venv\Scripts\activate
 
-Mac/Linux: python3 -m venv venv && source venv/bin/activate
+-**Mac/Linux:** python3 -m venv venv && source venv/bin/activate
 
-Install required packages: pip install -r requirements.txt
+-Install required packages: pip install -r requirements.txt
 
-Prepare your data: create a folder named data/ and place your PDFs or TXT files inside (e.g., data/operation-and-maintenance.pdf)
+-**Prepare your data:** create a folder named data/ and place your PDFs or TXT files inside (e.g., data/operation-and-maintenance.pdf)
 
-Run the Streamlit app: streamlit run app.py
+-**Run the Streamlit app:** streamlit run app.py
 
-Tips: ask maintenance-related questions in the input box, ensure PDFs are readable text, the app retrieves relevant chunks and generates grounded answers.
+-Tips: ask maintenance-related questions in the input box, ensure PDFs are readable text, the app retrieves relevant chunks and generates grounded answers.
 
 ---
 
